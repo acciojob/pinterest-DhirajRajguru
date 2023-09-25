@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content : space-between;
+	align-items:center;
+}
+.hero img{
+	width:350px;
+	height:200px;
+	object-fit:cover;
+}
+.text-column{
+	display-flex;
+	padding:15px;
+/* 	background-image: linear-gradient(to right, red, yellow); */
+	background-image: linear-gradient( to right,white, lightblue);
+}
+.hero button{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:15px;
+}
